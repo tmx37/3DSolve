@@ -54,13 +54,13 @@ void testFunction()
             outputTestString += "\n Pack2 ID: " + std::to_string(testPack2.getPackID());
             outputTestString += "\n Pack2 Density: " + std::to_string(testPack2.getDensity());
                     
-            if (testPack1 == testPack2)
-            {
-                outputTestString += "\n\n I PACCHI SONO UGUALI :)";
-            } else
-            {
-                outputTestString += "\n I PACCHI SONO DIVERSI :(";
-            }
+            // if (testPack1 == testPack2)
+            // {
+            //     outputTestString += "\n\n I PACCHI SONO UGUALI :)";
+            // } else
+            // {
+            //     outputTestString += "\n I PACCHI SONO DIVERSI :(";
+            // }
         #pragma endregion
 
         #pragma region "test creazione Grid"

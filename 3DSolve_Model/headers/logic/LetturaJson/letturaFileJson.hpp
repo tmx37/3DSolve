@@ -5,7 +5,7 @@
 #include "../../entities/physical/Pack.hpp"
 #include "../../entities/physical/Pallet.hpp"
 
-#include "../../../extLibs/nlohmannJSON/json.hpp"
+#include "../../../../common/nlohmannJSON/json.hpp"
 
 class ReadJson
 {

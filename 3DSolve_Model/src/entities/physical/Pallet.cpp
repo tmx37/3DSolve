@@ -27,7 +27,7 @@ int Pallet ::getPackCount() const
 std::vector<Pack> Pallet ::getPackVector() const
 {
     return this->pallet;
-}
+} 
 
 ThreeNum_set<int> Pallet ::getPalletDims() const
 {

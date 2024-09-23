@@ -13,5 +13,9 @@ project ("3DSolve")
 
 set(CMAKE_BINARY_DIR ${PROJECT_SOURCE_DIR}/3DSolve_Model/build)
 
+# Add main.cpp as an executable target
+add_executable(3DSolve_Model ${PROJECT_SOURCE_DIR}/3DSolve_Model/main.cpp)
+
 # Include sub-projects.
 add_subdirectory ("3DSolve_Model")
+

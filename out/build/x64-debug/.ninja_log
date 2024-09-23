@@ -1,0 +1,19 @@
+# ninja log v5
+4	10	0	clean	8c45b54705a541e8
+30	132	7488044793195174	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/physical/3D_object.cpp.obj	2bf1837658347dfb
+16	133	7488044793195174	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/geometry/Geometry.cpp.obj	1f8b0c3181b6fe9e
+23	649	7488044798364586	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/geometry/PackDomain.cpp.obj	8fe5eae4c072c403
+34	675	7488044798630617	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/physical/Pack.cpp.obj	373db98a7c6b657d
+13	795	7488044799836224	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/geometry/Domain.cpp.obj	bb409bd78cb601fb
+53	1018	7488044802042711	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/mainMethods/messages.cpp.obj	82fab0e92853565b
+27	1025	7488044802098010	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/geometry/Plane.cpp.obj	9bc6b09e8f62caaf
+19	1051	7488044802376084	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/geometry/Grid.cpp.obj	c59cae983f26ce37
+50	1062	7488044802486970	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/mainMethods/fitIntoPallet.cpp.obj	94b700bccc96cb90
+61	1075	7488044802622177	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/ordinamentoPacchi/ordinamentoPacchi.cpp.obj	27fc32556edbfce5
+65	1089	7488044802772700	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/ordinamentoPacchi/quickSort.cpp.obj	7ae057ae20306ed2
+42	1092	7488044802802704	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/physical/PalletGroup.cpp.obj	4a501549506f2389
+38	1093	7488044802802704	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/entities/physical/Pallet.cpp.obj	4582c0c7ecbff30c
+57	1853	7488044810409627	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/mainMethods/test.cpp.obj	7659bce7a5e98dc4
+46	3161	7488044823469161	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/src/logic/LetturaJson/letturaFileJson.cpp.obj	9299e0a772c47a2
+9	3259	7488044824457067	CMakeFiles/3DSolve_Model.dir/3DSolve_Model/main.cpp.obj	66569c8461088e20
+3259	3595	7488044827674414	3DSolve_Model.exe	5a1be1a7491c550b
