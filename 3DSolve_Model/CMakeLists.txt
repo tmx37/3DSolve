@@ -5,9 +5,11 @@
 # Add source to this project's executable.
 # add_executable (3DSolve_Model "main.cpp")
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET 3DSolve_Model PROPERTY CXX_STANDARD 20)
-endif()
+# if (CMAKE_VERSION VERSION_GREATER 3.12)
+#  set_property(TARGET 3DSolve_Model PROPERTY CXX_STANDARD 20)
+# endif()
+
+add_executable(3DSolve_Model ./main.cpp)
 
 # Add all .cpp files in the directory to the executable
 file(GLOB SOURCES ./src/*/*/*.cpp)

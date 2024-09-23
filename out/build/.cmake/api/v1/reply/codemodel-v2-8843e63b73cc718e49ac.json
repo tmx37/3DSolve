@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3DSolve_Model",
+					"jsonFile" : "directory-3DSolve_Model-Debug-10e5a27ed552dcea7f05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3DSolve_Model",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3DSolve_QtView",
+					"jsonFile" : "directory-3DSolve_QtView-Debug-caab13fa608c762ff80a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3DSolve_QtView",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "3DSolve",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "3DSolve_QtView",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "3DSolve_Model::@25bee5ec232da14c63a4",
+					"jsonFile" : "target-3DSolve_Model-Debug-88ed2c42c0c2900f178a.json",
+					"name" : "3DSolve_Model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "3DSolve_QtView::@58cf6a84811b8db58f7d",
+					"jsonFile" : "target-3DSolve_QtView-Debug-f36f14245dabaa450a15.json",
+					"name" : "3DSolve_QtView",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "3DSolve_QtView_autogen::@58cf6a84811b8db58f7d",
+					"jsonFile" : "target-3DSolve_QtView_autogen-Debug-78abc8fc3b1571a927ad.json",
+					"name" : "3DSolve_QtView_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "3DSolve_QtView_autogen_timestamp_deps::@58cf6a84811b8db58f7d",
+					"jsonFile" : "target-3DSolve_QtView_autogen_timestamp_deps-Debug-39a4be34c92c61a48cef.json",
+					"name" : "3DSolve_QtView_autogen_timestamp_deps",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/TomX37/Documents/REPOS/3DSolve/out/build",
+		"source" : "C:/Users/TomX37/Documents/REPOS/3DSolve"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

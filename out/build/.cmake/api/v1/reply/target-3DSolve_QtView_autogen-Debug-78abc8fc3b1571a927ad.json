@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3DSolve_QtView/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "3DSolve_QtView_autogen_timestamp_deps::@58cf6a84811b8db58f7d"
+		}
+	],
+	"id" : "3DSolve_QtView_autogen::@58cf6a84811b8db58f7d",
+	"isGeneratorProvided" : true,
+	"name" : "3DSolve_QtView_autogen",
+	"paths" : 
+	{
+		"build" : "3DSolve_QtView",
+		"source" : "3DSolve_QtView"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/3DSolve_QtView/CMakeFiles/3DSolve_QtView_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/3DSolve_QtView/CMakeFiles/3DSolve_QtView_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/3DSolve_QtView/3DSolve_QtView_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
