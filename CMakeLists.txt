@@ -11,5 +11,7 @@ endif()
 
 project ("3DSolve")
 
+set(CMAKE_BINARY_DIR ${PROJECT_SOURCE_DIR}/3DSolve_Model/build)
+
 # Include sub-projects.
 add_subdirectory ("3DSolve_Model")
