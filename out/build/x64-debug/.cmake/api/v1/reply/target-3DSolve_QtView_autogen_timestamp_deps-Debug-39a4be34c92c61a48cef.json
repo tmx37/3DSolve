@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"3DSolve_QtView/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "3DSolve_QtView_autogen_timestamp_deps::@58cf6a84811b8db58f7d",
+	"isGeneratorProvided" : true,
+	"name" : "3DSolve_QtView_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "3DSolve_QtView",
+		"source" : "3DSolve_QtView"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

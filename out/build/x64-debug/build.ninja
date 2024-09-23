@@ -39,13 +39,13 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\TomX37\Documents\REPOS\3DSolve\out\build\
+cmake_ninja_workdir = C$:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -230,7 +230,7 @@ build 3DSolve_Model\3DSolve_Model.exe: CXX_EXECUTABLE_LINKER__3DSolve_Model_Debu
 # Utility command for edit_cache
 
 build 3DSolve_Model\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_Model && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_Model && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -241,7 +241,7 @@ build 3DSolve_Model\edit_cache: phony 3DSolve_Model\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build 3DSolve_Model\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_Model && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_Model && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -262,10 +262,10 @@ build 3DSolve_Model\rebuild_cache: phony 3DSolve_Model\CMakeFiles\rebuild_cache.
 
 build cmake_object_order_depends_target_3DSolve_QtView: phony || 3DSolve_QtView\3DSolve_QtView_autogen 3DSolve_QtView\3DSolve_QtView_autogen\mocs_compilation.cpp 3DSolve_QtView\3DSolve_QtView_autogen\timestamp 3DSolve_QtView\3DSolve_QtView_autogen_timestamp_deps
 
-build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\3DSolve_QtView_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__3DSolve_QtView_unscanned_Debug C$:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView\3DSolve_QtView_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_3DSolve_QtView
+build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\3DSolve_QtView_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__3DSolve_QtView_unscanned_Debug C$:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView\3DSolve_QtView_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_3DSolve_QtView
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++17 -ZI -Zc:__cplusplus -permissive- -utf-8
-  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
+  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
   OBJECT_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir
   OBJECT_FILE_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\3DSolve_QtView_autogen
   TARGET_COMPILE_PDB = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\
@@ -274,7 +274,7 @@ build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\3DSolve_QtView_autogen\mocs_c
 build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\main.cpp.obj: CXX_COMPILER__3DSolve_QtView_unscanned_Debug C$:\Users\TomX37\Documents\REPOS\3DSolve\3DSolve_QtView\main.cpp || cmake_object_order_depends_target_3DSolve_QtView
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++17 -ZI -Zc:__cplusplus -permissive- -utf-8
-  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
+  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
   OBJECT_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir
   OBJECT_FILE_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir
   TARGET_COMPILE_PDB = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\
@@ -283,7 +283,7 @@ build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\main.cpp.obj: CXX_COMPILER__3
 build 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\DSolve_QtView.cpp.obj: CXX_COMPILER__3DSolve_QtView_unscanned_Debug C$:\Users\TomX37\Documents\REPOS\3DSolve\3DSolve_QtView\DSolve_QtView.cpp || cmake_object_order_depends_target_3DSolve_QtView
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++17 -ZI -Zc:__cplusplus -permissive- -utf-8
-  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
+  INCLUDES = -IC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView\3DSolve_QtView_autogen\include -external:IC:\Qt\6.4.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.4.2\msvc2019_64\include -external:IC:\Qt\6.4.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.4.2\msvc2019_64\include\QtGui -external:IC:\Qt\6.4.2\msvc2019_64\include\QtWidgets -external:W0
   OBJECT_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir
   OBJECT_FILE_DIR = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir
   TARGET_COMPILE_PDB = 3DSolve_QtView\CMakeFiles\3DSolve_QtView.dir\
@@ -314,7 +314,7 @@ build 3DSolve_QtView\3DSolve_QtView.exe: CXX_EXECUTABLE_LINKER__3DSolve_QtView_D
 # Utility command for edit_cache
 
 build 3DSolve_QtView\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -325,7 +325,7 @@ build 3DSolve_QtView\edit_cache: phony 3DSolve_QtView\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build 3DSolve_QtView\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\TomX37\Documents\REPOS\3DSolve -BC:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -349,9 +349,9 @@ build 3DSolve_QtView\3DSolve_QtView_autogen: phony 3DSolve_QtView\CMakeFiles\3DS
 # Custom command for 3DSolve_QtView\3DSolve_QtView_autogen\timestamp
 
 build 3DSolve_QtView\3DSolve_QtView_autogen\timestamp 3DSolve_QtView\3DSolve_QtView_autogen\mocs_compilation.cpp | ${cmake_ninja_workdir}3DSolve_QtView\3DSolve_QtView_autogen\timestamp ${cmake_ninja_workdir}3DSolve_QtView\3DSolve_QtView_autogen\mocs_compilation.cpp: CUSTOM_COMMAND C$:\Qt\6.4.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.4.2\msvc2019_64\.\bin\uic.exe || 3DSolve_QtView\3DSolve_QtView_autogen_timestamp_deps
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_QtView/CMakeFiles/3DSolve_QtView_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_QtView/3DSolve_QtView_autogen/timestamp && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/TomX37/Documents/REPOS/3DSolve C:/Users/TomX37/Documents/REPOS/3DSolve/3DSolve_QtView C:/Users/TomX37/Documents/REPOS/3DSolve/out/build C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_QtView C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_QtView/3DSolve_QtView_autogen/deps C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/CMakeFiles/d/2db464d7331a3d6ba97b3596306c4fe4cecafdcc8d21773034a425c554e4ac67.d"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\TomX37\Documents\REPOS\3DSolve\out\build\x64-debug\3DSolve_QtView && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView/CMakeFiles/3DSolve_QtView_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView/3DSolve_QtView_autogen/timestamp && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/Users/TomX37/Documents/REPOS/3DSolve C:/Users/TomX37/Documents/REPOS/3DSolve/3DSolve_QtView C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView/3DSolve_QtView_autogen/deps C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/CMakeFiles/d/846c096d2a52e32b54b11d6aff5c4c06efe25d14952e0cca8b914bd52f63de65.d"
   DESC = Automatic MOC and UIC for target 3DSolve_QtView
-  depfile = CMakeFiles\d\2db464d7331a3d6ba97b3596306c4fe4cecafdcc8d21773034a425c554e4ac67.d
+  depfile = CMakeFiles\d\846c096d2a52e32b54b11d6aff5c4c06efe25d14952e0cca8b914bd52f63de65.d
   deps = gcc
   restat = 1
 
@@ -382,21 +382,21 @@ build 3DSolve_QtView_autogen_timestamp_deps: phony 3DSolve_QtView\3DSolve_QtView
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build
+# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug
 
 build all: phony 3DSolve_Model\all 3DSolve_QtView\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_Model
+# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_Model
 
 build 3DSolve_Model\all: phony 3DSolve_Model\3DSolve_Model.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/3DSolve_QtView
+# Folder: C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView
 
 build 3DSolve_QtView\all: phony 3DSolve_QtView\3DSolve_QtView.exe
 

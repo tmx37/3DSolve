@@ -1,0 +1,26 @@
+# ninja log v5
+8	226	7488160461526001	3DSolve_QtView/3DSolve_QtView_autogen/timestamp	88b619773302fe7e
+232	1561	7488160475359869	3DSolve_QtView/CMakeFiles/3DSolve_QtView.dir/main.cpp.obj	6e3edc00321846db
+229	1560	7488160475339831	3DSolve_QtView/CMakeFiles/3DSolve_QtView.dir/3DSolve_QtView_autogen/mocs_compilation.cpp.obj	9cf302ccb3277a86
+8	226	7488160461526001	3DSolve_QtView/3DSolve_QtView_autogen/mocs_compilation.cpp	88b619773302fe7e
+235	1567	7488160475399841	3DSolve_QtView/CMakeFiles/3DSolve_QtView.dir/DSolve_QtView.cpp.obj	c26290ed6e49fdbe
+8	226	7488160461526001	C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView/3DSolve_QtView_autogen/timestamp	88b619773302fe7e
+8	226	7488160461526001	C:/Users/TomX37/Documents/REPOS/3DSolve/out/build/x64-debug/3DSolve_QtView/3DSolve_QtView_autogen/mocs_compilation.cpp	88b619773302fe7e
+1567	1823	7488160477840109	3DSolve_QtView/3DSolve_QtView.exe	b0ec50e614038b17
+38	624	7488162438858253	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/geometry/Plane.cpp.obj	fbedac47e77bdb12
+42	157	7488162434170500	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/physical/3D_object.cpp.obj	f84e349c5bfa9763
+27	158	7488162434170500	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/geometry/Geometry.cpp.obj	ebe78416c7bf7fc2
+34	413	7488162436731012	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/geometry/PackDomain.cpp.obj	818c8c8f2f1117c3
+46	428	7488162436901123	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/physical/Pack.cpp.obj	6ac739fad862534
+24	505	7488162437676301	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/geometry/Domain.cpp.obj	9816d5e4bb01c78f
+63	600	7488162438618123	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/mainMethods/messages.cpp.obj	e3898f0a9b319b64
+31	633	7488162438953410	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/geometry/Grid.cpp.obj	b5493ebcde14f406
+59	644	7488162439083394	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/mainMethods/fitIntoPallet.cpp.obj	98da9eaecfa82e5f
+49	648	7488162439113412	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/physical/Pallet.cpp.obj	aae361a24f89dfe4
+70	651	7488162439143402	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/ordinamentoPacchi/ordinamentoPacchi.cpp.obj	4e3f07a40de36c14
+74	652	7488162439163423	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/ordinamentoPacchi/quickSort.cpp.obj	d04ff0827e347d05
+53	674	7488162439383399	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/entities/physical/PalletGroup.cpp.obj	91abd0480d2f3cf
+67	759	7488162440238578	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/mainMethods/test.cpp.obj	a40dd38afdacc5ac
+20	1625	7488162448869968	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/main.cpp.obj	61f8dd3ae1ead418
+56	1705	7488162449655128	3DSolve_Model/CMakeFiles/3DSolve_Model.dir/src/logic/LetturaJson/letturaFileJson.cpp.obj	7d7ac4b587851845
+1705	2060	7488162453054936	3DSolve_Model/3DSolve_Model.exe	7dda63b71fbd185c

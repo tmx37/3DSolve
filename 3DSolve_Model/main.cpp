@@ -26,15 +26,9 @@
 
 
 /*
- * TODO:
+ * ideas:
  *     - big sexy ENUM for retrun states
- *     - add weight control
- *     - add height control
- *     - test last case
- *     - fix "faultedPacks" ID returns in output .json 
  *     - list all error codes
- *	
- *	!!! aggiunta sezione "faulted packs" al json di output
  */
 
 int main(int argc, char *argv[])
