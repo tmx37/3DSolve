@@ -1,71 +1,122 @@
+
+
 /*
 This is a UI file (.ui.qml) that is intended to be edited in Qt Design Studio only.
 It is supposed to be strictly declarative and only uses a subset of QML. If you edit
 this file manually, you might introduce QML code that is not supported by Qt Design Studio.
 Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on .ui.qml files.
 */
-
 import QtQuick
 import QtQuick.Controls
 import QML_View
+import QtQuick.Studio.Components
+import QtQuick.Layouts
 
 Rectangle {
     id: rectangle
-    width: Constants.width
-    height: Constants.height
+    width: 800
+    height: 600
 
     color: Constants.backgroundColor
 
-    Button {
-        id: button
-        text: qsTr("Press me")
-        anchors.verticalCenter: parent.verticalCenter
-        checkable: true
-        anchors.horizontalCenter: parent.horizontalCenter
+    RowLayout {
+        id: rowLayout
+        anchors.fill: parent
 
-        Connections {
-            target: button
-            onClicked: animation.start()
+        ColumnLayout {
+            id: columnLayout
+            width: 100
+            height: 100
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+
+            TextArea {
+                id: textArea
+                height: 250
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+                placeholderText: qsTr("Text Area")
+            }
+
+            RowLayout {
+                id: rowLayout1
+                width: 100
+                height: 100
+
+                ColumnLayout {
+                    id: columnLayout3
+                    width: 100
+                    height: 100
+
+                    Button {
+                        id: button
+                        text: qsTr("Button")
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                    }
+
+                    Button {
+                        id: button1
+                        text: qsTr("Button")
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                    }
+                }
+
+                Button {
+                    id: button2
+                    text: qsTr("Button")
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                }
+            }
+        }
+
+        ColumnLayout {
+            id: columnLayout1
+            width: 100
+            height: 100
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+
+            Item {
+                id: _item
+                width: 200
+                height: 200
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+            }
+
+            RowLayout {
+                id: rowLayout2
+                width: 100
+                height: 100
+
+                ColumnLayout {
+                    id: columnLayout2
+                    width: 100
+                    height: 100
+
+                    Button {
+                        id: button3
+                        text: qsTr("Button")
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                    }
+
+                    Button {
+                        id: button4
+                        text: qsTr("Button")
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                    }
+                }
+
+                Button {
+                    id: button5
+                    text: qsTr("Button")
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                }
+            }
         }
     }
-
-    Text {
-        id: label
-        text: qsTr("Hello QML_View")
-        anchors.top: button.bottom
-        font.family: Constants.font.family
-        anchors.topMargin: 45
-        anchors.horizontalCenter: parent.horizontalCenter
-
-        SequentialAnimation {
-            id: animation
-
-            ColorAnimation {
-                id: colorAnimation1
-                target: rectangle
-                property: "color"
-                to: "#2294c6"
-                from: Constants.backgroundColor
-            }
-
-            ColorAnimation {
-                id: colorAnimation2
-                target: rectangle
-                property: "color"
-                to: Constants.backgroundColor
-                from: "#2294c6"
-            }
-        }
-    }
-    states: [
-        State {
-            name: "clicked"
-            when: button.checked
-
-            PropertyChanges {
-                target: label
-                text: qsTr("Button Checked")
-            }
-        }
-    ]
 }
