@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/QML_View/">
+    <file alias="EventListModel.qml">C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View/QML_View/EventListModel.qml</file>
+    <file alias="Constants.qml">C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View/QML_View/Constants.qml</file>
+    <file alias="EventListSimulator.qml">C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View/QML_View/EventListSimulator.qml</file>
+  </qresource>
+</RCC>
+

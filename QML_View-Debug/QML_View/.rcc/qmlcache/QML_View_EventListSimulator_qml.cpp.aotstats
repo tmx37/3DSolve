@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 25778,
+                        "errorMessage": "",
+                        "functionName": "onTriggered",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 23871,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 20
+                    }
+                ],
+                "filepath": "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/EventListSimulator.qml"
+            }
+        ],
+        "moduleId": "QML_View(QML_View)"
+    }
+]

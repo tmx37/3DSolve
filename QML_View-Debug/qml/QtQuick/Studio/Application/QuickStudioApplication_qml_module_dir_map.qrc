@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt-project.org/imports/QtQuick/Studio/Application">C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/qml/QtQuick/Studio/Application</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QML_View/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "QML_Viewplugin_init_autogen_timestamp_deps::@392cdf0a2726e0c6f8ea"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "QML_Viewplugin_init_autogen::@392cdf0a2726e0c6f8ea",
+	"isGeneratorProvided" : true,
+	"name" : "QML_Viewplugin_init_autogen",
+	"paths" : 
+	{
+		"build" : "QML_View",
+		"source" : "QML_View"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/CMakeFiles/QML_Viewplugin_init_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/CMakeFiles/QML_Viewplugin_init_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/QML_Viewplugin_init_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

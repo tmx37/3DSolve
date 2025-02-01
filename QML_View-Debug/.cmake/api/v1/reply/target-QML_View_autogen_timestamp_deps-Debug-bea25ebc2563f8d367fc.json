@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QML_View/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "QML_View_tooling::@392cdf0a2726e0c6f8ea"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "QML_View_autogen_timestamp_deps::@392cdf0a2726e0c6f8ea",
+	"isGeneratorProvided" : true,
+	"name" : "QML_View_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "QML_View",
+		"source" : "QML_View"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

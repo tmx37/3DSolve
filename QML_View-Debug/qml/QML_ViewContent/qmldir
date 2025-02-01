@@ -1,0 +1,9 @@
+module QML_ViewContent
+linktarget QML_ViewContentplugin
+optional plugin QML_ViewContentplugin
+classname QML_ViewContentPlugin
+typeinfo QML_ViewContent.qmltypes
+prefer :/qt/qml/QML_ViewContent/
+App 1.0 App.qml
+Screen01 1.0 Screen01.ui.qml
+

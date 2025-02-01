@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/QML_ViewContent">
+    <file alias="qmldir">C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/qml/QML_ViewContent/qmldir</file>
+  </qresource>
+</RCC>
+

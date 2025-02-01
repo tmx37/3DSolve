@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 412,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 13,
+                        "durationMicroseconds": 119,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 9
+                    }
+                ],
+                "filepath": "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_ViewContent/App.qml"
+            }
+        ],
+        "moduleId": "QML_ViewContent(QML_ViewContent)"
+    }
+]

@@ -1,0 +1,62 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QML_View/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "QML_Viewplugin_autogen_timestamp_deps::@392cdf0a2726e0c6f8ea",
+	"isGeneratorProvided" : true,
+	"name" : "QML_Viewplugin_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "QML_View",
+		"source" : "QML_View"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/CMakeFiles/QML_Viewplugin_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/TomX37/Documents/REPOS/3DSolve/QML_View-Debug/QML_View/CMakeFiles/QML_Viewplugin_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
